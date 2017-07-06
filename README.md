@@ -1,8 +1,10 @@
-# Doctrine 2 State Machine (Work in progress)
+# Doctrine 2 State Machine
 
-## State machines for Doctrine entities
+State machines for Doctrine entities
 
-### Why
+Note: this lib is a work in progress. Nothing finished yet.
+
+## Why
 
 State machines when used to enforce the workflow of DB records, need to be deeply integrated with the underlying DBMS in order to retain data integrity in a highly concurrency environment.
 
