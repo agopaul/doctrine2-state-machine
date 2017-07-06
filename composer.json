@@ -1,0 +1,21 @@
+{
+    "name": "agopaul/doctrine2-state-machine",
+    "description": "State machines for Doctrine 2 entities",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paolo Agostinetto",
+            "email": "paul.ago@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "doctrine/orm": "^2.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "DoctrineStateMachine\\": "src"
+        }
+    }
+}
